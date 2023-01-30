@@ -1,0 +1,78 @@
+@media (max-width: 768px){
+	.navbar-header{
+		margin: 5px;
+	}
+
+	.nav-item{
+		text-align: center;
+		font-size: 1.5em;
+	}
+	
+	footer{
+		.elem-foot{
+		margin: 5px;
+		font-size: 1.4em;
+		}
+	}
+
+	h5{
+		a{
+			@include texto-deco(darkblue,1em,1.6em,animation1);
+		}
+	}
+
+	.nro-tel {
+		font-size: 1.6em;
+		color: darkblue;
+	}
+
+	.foot-vet{
+		position: sticky;
+	}
+
+	.hei-map {
+		height: 150%;
+	}
+
+	.lis-donations {
+		font-size: .3em;
+	}
+
+	.logo-don {
+		border-radius: 50%;
+		width: 55%;
+		margin: 0 10px;
+	}
+
+	.art-error{
+		img {
+			margin: auto;
+			display: block;  
+			width: 350px;
+			height: 300px;
+		}
+		.titulo-error{
+			font-size: 100px;
+			text-align: center;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 872px){
+	.foot-vet {
+		position: sticky;
+		bottom: 0;      
+	}
+	
+	.img-vet {
+		width: 95%;
+		height: 45%;
+	}
+
+	article{
+		.img-vet{
+			float: center;
+			top: 0;
+		}
+	}
+}
